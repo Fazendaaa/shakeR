@@ -1,0 +1,9 @@
+^\.github$
+^img$
+^codecov\.yml$
+^\.lintr$
+^docs$
+^\.dockerignore$
+^Dockerfile$
+^README\.pt\-br\.md$
+^LICENSE\.md$

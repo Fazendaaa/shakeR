@@ -1,0 +1,33 @@
+Package: shakeR
+Title: Tool to point out how many lines of your code are unneeded
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lucas",
+           family = "Carotta",
+           role = c("aut", "cre"),
+           email = "lucas.carotta@outlook.com")
+Description: A tree shaking tool to help you clean up the code and keep it that
+    way through showing functions that are never called, variables that are
+    never initialized or read, or even parameters that are never called in the
+    body of the function
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/Fazendaaa/shakeR
+BugReports: https://github.com/Fazendaaa/shakeR/issues
+Suggests: 
+    testthat (>= 2.3.1),
+    covr (>= 3.4.0),
+    lintr (>= 2.0.1),
+    roxygen2 (>= 7.0.2),
+    pkgdown (>= 1.4.1),
+    devtools (>= 2.2.2),
+    goodpractice (>= 1.0.2),
+    rmarkdown (>= 2.1),
+    knitr (>= 1.28),
+    spelling (>= 2.1)
+Imports: 
+    assertthat (>= 0.2.1.9000)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Language: en-US
